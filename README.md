@@ -9,3 +9,5 @@ Proyecto Final CoderHouse JavaScript
 ✨✨
 
 Caracteristica del Proyecto
+
+Es una tienda virtual que se dedica al rubor de venta de accesorios y quipos médicos de alta calidad y complejidad, asi como tambien la indumentaria de los profesionales, para así brindarles un mejor servicio a los pacientes.
