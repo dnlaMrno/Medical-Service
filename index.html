@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="Css/style.css">
+    <title>MedicalService</title>
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <header>
+        <div class="container">
+            <!--MENU -->
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">Health</a>
+                <button type="button" class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse">
+                    <ul>
+                        <li><a href="#"></a>Home</li>
+                        <li><a href="#"></a>Acerca de Nosotros</li>
+                        <li><a href="#"></a>Nuestros Productos</li>
+                        <li><a href="#"></a>Contactanos</li>
+                    </ul>
+                </div>
+
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info"></span>
+                    </button>
+
+                    <div class="cart-container">
+                        <div class="cart-list">
+                            <!-- single item -->
+                            <div class="cart-item">
+                                <div class="cart-item-info">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-total">
+                            <h3>Total: $ </h3>
+                            <span id="cart-total-value"></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- FIN DEL MENU -->
+
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Medical Service</h1>
+                    <p class="text">“Es muy poco lo que se puede hacer bajo el espíritu del miedo.” (Florence
+                        Nightingale)</p>
+                </div>
+            </div>
+            <!-- FIN DEL BANNER  -->
+        </div>
+    </header>
+    <!-- FIN DEL HEADER -->
+
+    <!----------------SOBRE NOSOTROS  SECTIONS----------------->
+    <section class="core" id="core">
+        <h1 class="heading">NUESTRO COMPROMISO</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/doctor_PNG16034.png" alt="">
+            </div>
+            <div class="boxContainer">
+                <div class="box">
+                    <h3><i class="fas fa-user"></i>Compromiso Con El Usuario</h3>
+                    <p>Ofrecer el mejor servicio y calidad a todos nuestros clientes como prioridad, brindandole la
+                        mejor Experiencia.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-shield-alt"></i>Seguridad</h3>
+                    <p>Todos Nuestros Equipos cuentan con garantia y soporte tecnico, como tambien ofrecemos
+                        capacitaciones del manejo del mismo, para que el cliente saquel el maximo de su compra.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-phone"></i>servicio Al Cliente</h3>
+                    <p>Contamos Con nuestras lineas telefonicas brindando servicio tecnico las 24h, como tambien
+                        elalquiler de los Instrumentos Quirurgicos de Emergencia</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-magic"></i>Variedad</h3>
+                    <p>Somos la Mayor distribuidora de Argentina en ofrecer equipos de alta gama nacionales e
+                        internacionales, con manuales traducidos para mayor comprencion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- SECCION DE PRODUCTOS----  -->
+    <section class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <!-- single item -->
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/wheelchair_PNG82795.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Silla de Ruedas</h3>
+                        <span class="product-category">Sillas</span>
+                        <p class="product-price">$17500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/camilla.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$64000.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/valvula.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Valvula de Oxigeno</h3>
+                        <span class="product-category">valvulas</span>
+                        <p class="product-price">$9800.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/equipoSutura.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Kit de Sutura</h3>
+                        <span class="product-category">miniKit</span>
+                        <p class="product-price">$5900.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/tensiometroDigital.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Tensiometro Digital</h3>
+                        <span class="product-category">Tensiometro</span>
+                        <p class="product-price">$4749.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/tensiometroManual.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Tensiometro Manual</h3>
+                        <span class="product-category">Tensiometro</span>
+                        <p class="product-price">$3210.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/estetoscopio.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Estetoscopio</h3>
+                        <span class="product-category">Estetoscopio</span>
+                        <p class="product-price">$5509.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/carroDeParo.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Carro de Paro</h3>
+                        <span class="product-category">Emergencia</span>
+                        <p class="product-price">$75546.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/ambosUnisex.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Ambos Unisex</h3>
+                        <span class="product-category">Ropa Medica</span>
+                        <p class="product-price">$7500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/Muletas.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Muletas De Aluminio</h3>
+                        <span class="product-category">Ortopedia</span>
+                        <p class="product-price">$2250.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/baston.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Bastones</h3>
+                        <span class="product-category">Ortopedia</span>
+                        <p class="product-price" $1999.00</p>
+                    </div>
+                </div>
+
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/kinesio.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Electroestimulador</h3>
+                        <span class="product-category">Kinesiología</span>
+                        <p class="product-price">$37000.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/instrumentoCardio.gif" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">instrumento Cardiovascular</h3>
+                        <span class="product-category">Instrumentacion Qx</span>
+                        <p class="product-price">$78000.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="img/quirurgicoOrtopedico.jpg" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Instrumento Ortopedico</h3>
+                        <span class="product-category">Instrumentacion Qx</span>
+                        <p class="product-price">$120000.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- FIN DE LA SECCION DE PRODUCTOS----- -->
+
+    <!--------- footer------->
+    <footer>
+        <div class="footer-banner">
+            <div class="container">
+                <h2>CONTACTENOS</h2>
+                <p class="text">Si tiene alguna duda sobre como operamos, nuestros medios de pago, a continuacion
+                    ingrese dando CLICK al boton de FORMULARIO y llenelo con sus datos, alguno de nuestros operadores se
+                    comunicara con usted en las proximas 24h.</p>
+                <button type="button" class="btn">FORMULARIO</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <script src="Js/diseño.js"></script>
+</body>
+
+</html>

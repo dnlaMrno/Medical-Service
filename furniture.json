@@ -1,0 +1,87 @@
+[
+    {
+        "name" : "Silla de Ruedas",
+        "category" : "Silla de Ruedas",
+        "price" : "17500.00",
+        "imgSrc" : "Assets/wheelchair_PNG82795.png"
+    },
+    {
+        "name" : "camilla",
+        "category" : "camilla",
+        "price" : "64000.00",
+        "imgSrc" : "Assets/camilla.png"
+    },
+    {
+        "name" : "Valvula de Oxigeno",
+        "category" : "valvulas",
+        "price" : "9800.00",
+        "imgSrc" : "Assets/valvula.jpg"
+    },
+    {
+        "name" : "Kit de Sutura",
+        "category" : "miniKit",
+        "price" : "5900.00",
+        "imgSrc" : "Assets/equipoSutura.jpg"
+    },
+    {
+        "name" : "Tensiometro Digital",
+        "category" : "Tensiometro",
+        "price" : "4729.00",
+        "imgSrc" : "Assets/tensiometroDigital.jpg"
+    },
+    {
+        "name" : "Tensiometro Manual",
+        "category" : "Tensiometro",
+        "price" : "3210.00",
+        "imgSrc" : "Assets/tensiometroManual.jpg"
+    },
+    {
+        "name" : "Estetoscopio",
+        "category" : "Estetoscopio",
+        "price" : "5509.00",
+        "imgSrc" : "Assets/estetoscopio.jpg"
+    },
+    {
+        "name" : "Carro De Paro",
+        "category" : "Emergencia",
+        "price" : "75546.00",
+        "imgSrc" : "Assets/carroDeParo.jpg"
+    },
+    {
+        "name" : "Ambo Unisex",
+        "category" : "Ropa Medica",
+        "price" : "7500.00",
+        "imgSrc" : "Assets/ambosUnisex.png"
+    },
+    {
+        "name" : "Muletas De Aluminio",
+        "category" : "Ortopedia",
+        "price" : "2250.00",
+        "imgSrc" : "Assets/Muletas.jpg"
+    },
+    {
+        "name" : "Bastones",
+        "category" : "Ortopedia",
+        "price" : "1999.00",
+        "imgSrc" : "Assets/baston.jpg"
+    },
+    {
+        "name" : "Electroestimulador",
+        "category" : "Kinesiología",
+        "price" : "37000.00",
+        "imgSrc" : "Assets/kinesio.jpg"
+    },
+    {
+        "name" : "Instrumento Cardiovascular",
+        "category" : "Instrumentacion Qx",
+        "price" : "78000.00",
+        "imgSrc" : "img/instrumentoCardio.gif"
+    },
+    {
+        "name" : "Instrumento Ortopedico",
+        "category" : "Instrumentacion Qx",
+        "price" : "120000.00",
+        "imgSrc" : "Assets/quirurgicoOrtopedico.jpg"
+    }
+
+]
